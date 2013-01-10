@@ -1,0 +1,27 @@
+/* 
+ * styles.css
+ *
+ * @author: Chopping Block (choppinblock.com)
+ *
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+body {
+	padding:40px;
+	
+}
+
+.footer {background-color:#999;
+	margin-top:10px;
+	color :#FFF; 
+	padding:5px;
+}
+	
+	.inline-block li  {display: inline-block;
+							margin:0 10px}
+	
+/* Your styles go here */
