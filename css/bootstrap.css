@@ -720,8 +720,8 @@ h4 small {
 }
 
 .page-header {
-  padding-bottom: 9px;
-  margin: 20px 0 30px;
+  padding-bottom: 0px;
+  margin: 10px 0 15px;
 
 
   border-bottom: 1px solid #eeeeee;
@@ -5342,7 +5342,7 @@ a.thumbnail:hover {
           box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 
-.thumbnail > img {
+.thumbnail img {
   display: block;
   max-width: 100%;
   margin-right: auto;
