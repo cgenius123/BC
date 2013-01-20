@@ -18,12 +18,15 @@
 
 <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
+<link rel="stylesheet" href="css/rslider.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+
 
 	
 	<style type="text/css" media="screen">
-	
 
-			
+
+		
 		/*local styles if any (quick tests and local only overrides)*/
 	</style>
 </head>
@@ -95,20 +98,20 @@
 	
 		</div>
 	</div><!--page-header-->
-	<div class="container">
-		<div id="myCarousel" class="carousel slide">
-		  <!-- Carousel items -->
-		  <div class="carousel-inner">
-		    <div class="active item">
-			<img src="http://placehold.it/600x400"></div>
-		    <div class="item"><img src="http://placehold.it/600x400/FFCC00"></div>
-		    <div class="item"><img src="http://placehold.it/600x400/333999"></div>
-		  </div>
-		  <!-- Carousel nav -->
-		  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-		  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-		</div><!--carousel-->
-		</div>
+	<div id="wrapper">
+				<div id="rslides_container">
+
+					<ul class="rslides" id="slider1">
+
+						<li><a href="product.html"><img src="http://placehold.it/450x150/CCFF99"></a></li>
+						<li><a href="product.html"><img src="http://placehold.it/450x150/FF3300"></a></li>
+						<li><a href="product.html"><img src="http://placehold.it/450x150/993300" alt="Css Template Preview" /></a></li>
+						<li><a href="product.html"><img src="http://placehold.it/450x150/33CCFF" alt="Css Template Preview" /></a></li>
+						<li><a href="product.html"><img src="http://placehold.it/450x150" alt="Css Template Preview" /></a></li>
+
+					</ul>
+				</div>		
+				</div>
 				<div class="container">
 				<p class="span10 offset1">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
@@ -232,6 +235,22 @@
 	
 	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 
+
+	<script src="js/responsiveslides.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+		$("#slider1").responsiveSlides({
+	        auto: true,
+	        pager: true,
+		nav:true,
+		pause: true,
+	        speed: 500,
+	        maxwidth: 800,
+	namespace: "centered-btns",
+	      });
+	});
+		</script>
 
 </body>
 
